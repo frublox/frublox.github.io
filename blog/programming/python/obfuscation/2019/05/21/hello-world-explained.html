@@ -415,6 +415,8 @@ mov ACC, ACC
 
 <p>Most of the concepts here would probably be covered in an introductory class on microprocessors or other low-level computer hardware. Real CPUs are a lot more complicated (usually) but, as shown here, it doesn’t actually take too much to design a functioning (though severely limited) one. Regardless, this is definitely a fun way to obfuscate simple programs and gain a better understanding of how a CPU might work.</p>
 
+<p>As an aside, the implementation of the CPU is not quite perfect. Python doesn’t use 8-bit integers by default, so the code should really be masking the last 8 bits before storing anything to memory. You could say that the <code class="highlighter-rouge">while</code> loop should check if <code class="highlighter-rouge">PC</code> has a negative value as well, but with no <code class="highlighter-rouge">sub</code> instruction and no way to represent negative numbers, it is a bit difficult to get <code class="highlighter-rouge">PC</code> to be negative. But hey, it works well enough for “Hello World”.</p>
+
   </div><a class="u-url" href="/blog/programming/python/obfuscation/2019/05/21/hello-world-explained.html" hidden></a>
 </article>
 
