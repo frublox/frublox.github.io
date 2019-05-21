@@ -252,7 +252,7 @@ mov ACC, ACC
   <li>Decode the byte into an instruction: the opcode <code class="highlighter-rouge">o</code> and the arguments <code class="highlighter-rouge">x</code> and <code class="highlighter-rouge">y</code></li>
   <li>Handle each of the four possible instructions</li>
   <li>Increment the value in <code class="highlighter-rouge">PC</code> by 1</li>
-  <li>Set <code class="highlighter-rouge">Z</code> to 1 if <code class="highlighter-rouge">ACC</code> is 0</li>
+  <li>Set <code class="highlighter-rouge">Z</code> to 1 if <code class="highlighter-rouge">ACC</code> is 0, and 0 otherwise</li>
 </ol>
 
 <p>The relevant code:</p>
