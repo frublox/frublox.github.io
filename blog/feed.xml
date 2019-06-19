@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2019-06-19T00:19:48-04:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">frublox blog</title><subtitle>small blog about programming/tech/other</subtitle><entry><title type="html">Python for Java Developers: FizzBuzz</title><link href="http://localhost:4000/blog/programming/python/2019/05/28/python-for-java-developers-fizz-buzz.html" rel="alternate" type="text/html" title="Python for Java Developers: FizzBuzz" /><published>2019-05-28T06:30:00-04:00</published><updated>2019-05-28T06:30:00-04:00</updated><id>http://localhost:4000/blog/programming/python/2019/05/28/python-for-java-developers-fizz-buzz</id><content type="html" xml:base="http://localhost:4000/blog/programming/python/2019/05/28/python-for-java-developers-fizz-buzz.html">&lt;p&gt;The dreaded moment has come. You have made it this far, and now it is time to face the trial. The young man sitting before you has just finished scrawling out an infamous problem on the conference room whiteboard – a trial of iteration and divisibility. This would confound the rookie programmer, but you have a wealth of such victories under your belt.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2019-06-19T01:02:15-04:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">frublox blog</title><subtitle>small blog about programming/tech/other</subtitle><entry><title type="html">Python for Java Developers: FizzBuzz</title><link href="http://localhost:4000/blog/programming/python/2019/05/28/python-for-java-developers-fizz-buzz.html" rel="alternate" type="text/html" title="Python for Java Developers: FizzBuzz" /><published>2019-05-28T06:30:00-04:00</published><updated>2019-05-28T06:30:00-04:00</updated><id>http://localhost:4000/blog/programming/python/2019/05/28/python-for-java-developers-fizz-buzz</id><content type="html" xml:base="http://localhost:4000/blog/programming/python/2019/05/28/python-for-java-developers-fizz-buzz.html">&lt;p&gt;The dreaded moment has come. You have made it this far, and now it is time to face the trial. The young man sitting before you has just finished scrawling out an infamous problem on the conference room whiteboard – a trial of iteration and divisibility. This would confound the rookie programmer, but you have a wealth of such victories under your belt.&lt;/p&gt;
 
 &lt;p&gt;There is just one problem.&lt;/p&gt;
 
@@ -480,6 +480,36 @@
 &lt;p&gt;“What… what is all this for exactly?” He mutters under his breath, seeming to direct the question at himself rather than you.&lt;/p&gt;
 
 &lt;p&gt;“Just some standard Java interop. Using a custom classloader is more efficient here.”&lt;/p&gt;
+
+&lt;p&gt;You lean over and type a line into the console.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jython fizzbuzz.py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You are greeted back by a pleasant stream of data.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1
+2
+Fizz
+4
+Buzz
+Fizz
+7
+8
+Fizz
+Buzz
+11
+Fizz
+13
+14
+FizzBuzz
+16
+17
+Fizz
+19
+Buzz
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;The interview does not continue long afterwards. The interviewer leaves the room and a different man comes to escort you out. They will be in touch.&lt;/p&gt;</content><author><name></name></author><summary type="html">The dreaded moment has come. You have made it this far, and now it is time to face the trial. The young man sitting before you has just finished scrawling out an infamous problem on the conference room whiteboard – a trial of iteration and divisibility. This would confound the rookie programmer, but you have a wealth of such victories under your belt.</summary></entry><entry><title type="html">“Hello World” explained</title><link href="http://localhost:4000/blog/programming/python/obfuscation/2019/05/21/hello-world-explained.html" rel="alternate" type="text/html" title="&quot;Hello World&quot; explained" /><published>2019-05-21T12:36:53-04:00</published><updated>2019-05-21T12:36:53-04:00</updated><id>http://localhost:4000/blog/programming/python/obfuscation/2019/05/21/hello-world-explained</id><content type="html" xml:base="http://localhost:4000/blog/programming/python/obfuscation/2019/05/21/hello-world-explained.html">&lt;p&gt;I recently wrote a small, but cryptic “Hello World” program in Python:&lt;/p&gt;
 
